@@ -1,11 +1,14 @@
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
-namespace src.Persistencia;
+namespace Persistencia.Entidades;
 
 public class Habilidad
 {
-    private int combate ;
-    private string punteria ;
+    public string combate ;
+    public string punteria ;
     public string agilidad ;
+    public string fuerza ;
+    public string resistencia ;
+    public string estilo ;
 }
